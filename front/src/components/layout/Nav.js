@@ -1,9 +1,11 @@
+import "../../styles/components/layout/Nav.css";
+
 import { Link } from "react-router-dom";
 export default function Nav(props) {
   return (
-    <nav>
+    <nav className="nav">
       <div>
-        <ul style={{ listStyle: "none" }}>
+        <ul className="navMenu">
           <li>
             <Link to="/">Home</Link>
           </li>

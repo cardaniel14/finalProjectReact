@@ -1,7 +1,11 @@
+import "../../styles/components/layout/Header.css";
 export default function Header(props) {
   return (
-    <div className="holder">
-      <h1>Carlos Daniel Erazo</h1>
-    </div>
+    <header className="header">
+      <div className="headerDiv">
+        <h1>Daniel Erazo</h1>
+        <h2>Front-End Developer</h2>
+      </div>
+    </header>
   );
 }
